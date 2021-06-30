@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="todo-app\**" />
+    <Content Remove="todo-app\**" />
+    <EmbeddedResource Remove="todo-app\**" />
+    <None Remove="todo-app\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Controllers\" />
   </ItemGroup>
 
